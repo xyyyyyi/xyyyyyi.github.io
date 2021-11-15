@@ -1,0 +1,30 @@
+p{
+    background-color:lightpink;
+    color: rgb(201, 175, 156);
+}
+#test
+{
+    background-color: lightseagreen;
+}
+.test
+{
+    background-color: lightskyblue;
+}
+#textdiv
+{
+    background-color: rgb(141, 176, 228);
+    width: 100px;
+    height: 100px;
+    animation-name: testani;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 2;
+}
+@keyframes testani
+{
+    0%{background-color: mediumslateblue;top: 0px;left: 0px;}
+    25%{background-color: plum;top: 100px;left: 10px;}
+    50%{background-color: rebeccapurple;top: 150px;left: 50px;}
+    75%{background-color: rgb(141, 176, 228);top: 200px;left: 100px;}
+    100%{background-color: tomato;top: 250px;left: 150px;}
+}
